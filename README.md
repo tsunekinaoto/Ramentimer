@@ -3,11 +3,12 @@ ramen_timer
 ====
 
 # Dscription
+ラーメンタイマー
 
 # Requirement
 
 - Python 2.7.x
-- PyQt4
+- PySide
 
 # Usage
 ## アプリの起動
