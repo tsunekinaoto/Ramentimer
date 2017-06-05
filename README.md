@@ -1,6 +1,5 @@
 ramen_timer
-
-====
+=====
 
 ![demoimage](./damoimage.png)
 
