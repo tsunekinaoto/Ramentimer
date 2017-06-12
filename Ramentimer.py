@@ -54,9 +54,9 @@ class MainForm(PySide.QtGui.QDialog):
         self.ui.ResetButton.clicked.connect(self.pushResetButton)
 
 if __name__ == '__main__':
-    app = PySide.QtGui.QApplication(sys.argv)
-
+    # app = PySide.QtGui.QApplication(sys.argv)
+    app = PySide.QtGui.QApplication.instance()
     main_form = MainForm()
     main_form.ui.show()
 
-    sys.exit(app.exec_())
+    # sys.exit(app.exec_())
