@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLCDNumber" name="lcdNumber">
+  <widget class="QLCDNumber" name="LCDTimer">
    <property name="geometry">
     <rect>
      <x>0</x>
