@@ -24,7 +24,7 @@ class MainForm(PySide.QtGui.QDialog):
         self.is_run = False
         self.count = 180
         self.timer = PySide.QtCore.QTimer()
-        self.timer.setInterval(10)
+        self.timer.setInterval(1000)
         self.timer.timeout.connect(self.countdown)
         self.ui.LCDTimer.display(self.count)
 
@@ -46,7 +46,7 @@ class MainForm(PySide.QtGui.QDialog):
             self.is_run = True
 
     def pushResetButton(self):
-        self.initTimer()
+        self.initUI()
         self.updateLCD()
 
     def establishConnection(self):
@@ -54,7 +54,8 @@ class MainForm(PySide.QtGui.QDialog):
         self.ui.ResetButton.clicked.connect(self.pushResetButton)
 
 if __name__ == '__main__':
-    app = PySide.QtGui.QApplication(sys.argv)
+    # app = PySide.QtGui.QApplication(sys.argv)
+    app = PySide.QtGui.QApplication.instance()
 
     main_form = MainForm()
     main_form.ui.show()
