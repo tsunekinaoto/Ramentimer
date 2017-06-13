@@ -2,7 +2,7 @@ ramen_timer
 
 ====
 
-![demoimage](.damoimage.png)
+![demoimage](./demoimage.png)
 
 # Dscription
 ラーメンタイマー
