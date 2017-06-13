@@ -14,7 +14,7 @@ ramen_timer
 
 # Usage
 ## アプリの起動
-'$ Python Ramentimer.py'
+'$ Python main.py'
 
 # Instoll
 以下のコマンドで任意のディレクトリにcloneしてください。
